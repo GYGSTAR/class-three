@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.top-nav {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.top-nav-body {
+  width: 100%;
+  height: 58px;
+  margin: 1px 0px 1px 0px;
+}
+.top-nav-logo{
+  width: 20%;
+  height: 98%;
+  position: absolute;
+  left: 5%
+}
+.top-nav-logo span img {
+  width: 300px;
+  height: 58px;
+}
+.top-nav-container {
+  position: absolute;
+  left: 400px;
+  top: 1px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+}
+.top-nav-container > ul > li {
+  float: left;
+}
+.top-nav-container li > a {
+  display: block;
+  padding: 15px 10px 15px 10px;
+  background-color: #ffffff;
+  margin: 5px 10px;
+  color: black;
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+}
+.top-nav-container li > span {
+  display: block;
+  padding: 15px 10px 15px 10px;
+  background-color: #ffffff;
+  margin: 5px 10px;
+  color: black;
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+}
+#top-nav-menu1 {
+  width: 180px;
+  height: 61px;
+  position: absolute;
+  top: 60px;
+  left: 265px;
+}
+#top-nav-menu2 {
+  width: 100px;
+  height: 250px;
+  position: absolute;
+  top: 60px;
+  left: 390px;
+}
+#top-nav-menu2 li {
+  margin: 5px 0px;
+}
+.top-nav-menu {
+  display: none;
+  z-index: 3;
+}
+.top-nav-menu li a {
+  padding: 10px;
+  margin: 0px;
+}
+#top-nav-menu3 {
+  width: 189%;
+  height: 540px;
+  position: absolute;
+  top: 60px;
+  left: -50%;
+  background-color: rgba(235, 234, 234, 0.9);
+}
+#top-nav-menu3 > ul > li > ul > li {
+  float: left;
+}
+#top-nav-menu3 > ul > li > ul{
+  width: 100%;
+  height: 100px;
+}
+.top-nav-container > ul > li > a:hover {
+  border-bottom: 3px solid #0067b8;
+  color: #0067b8;
+}
+.top-nav-menu > ul >li >ul >li{
+  width: 100px;
+  height: 50px;
+  background-color: rgba(235, 234, 234, 0.5);
+  line-height: 50px;
+  margin: 5px;
+  text-align: center;
+}
+.carousel {
+  background-color: white;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  margin: 2px 0px;
+}
+.carousel-banner{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 0px;
+}
+.banner-img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.banner-img img{
+  width: 100%;
+  height: 100%;
+}
+.prev{
+  position: absolute;
+  left: 50px;
+  top: 225px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(235, 234, 234, 0.9);
+  border-radius: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px
+}
+.next{
+  position: absolute;
+  top: 225px;
+  left: 34%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(235, 234, 234, 0.9);
+  border-radius: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px
+}
+.carousel-tab{
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  margin-left: -80px;
+  width: 160px;
+  height: 20px;
+  z-index: 4;
+}
+.carousel-tab span{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  float: left;
+  margin: 5px 5px 5px 5px;
+  border-radius: 100%
+}
+.carousel .carousel-tab .on {
+  background-color: rgba(235, 234, 234, 0.9);
+}
+.carousel-banner-file{
+  width: 50%;
+  height: 4%;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  background-color: rgba(235, 234, 234, 0.3);
+}
+.carousel-right{
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  background-color: rgba(235, 234, 234, 0.9);
+}
+/**轮播图暂时结束**/
+.main {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin: 50px 0px;
+  background-color: rgba(235, 234, 234, 0.2);
+}
+.main-body {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  float: left;
+  background-color: rgba(235, 234, 234, 0.8);
+  margin: 0px 0px 0px 10%
+}
+.main-body-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: red;
+  position: relative;
+  top: 50px;
+  left: 50%;
+  margin-left: -100px;
+}
